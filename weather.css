@@ -1,0 +1,75 @@
+img{
+    float:left;
+    height: 57px;
+    width: auto;
+}
+header{
+    display: flex;
+    background-color: #F6F6F6;
+    padding:7px;
+    align-items: center;
+   border-bottom:  2px black solid;
+}
+header h1{
+    margin-left: 458px;
+    flex-grow: 1
+
+}
+
+.sign-in {
+    text-decoration: none;
+    color: #333; 
+    margin-left: 10px;
+}
+.search-icon {
+    margin-left: 44px;
+    color: #333; 
+    cursor: pointer; 
+    margin-top: 20px;
+}
+nav{
+    
+   background-color:  #F6F6F6;
+}
+
+footer{
+    background-color: #F6F6F6;
+        padding: 10px;
+        text-align: center;
+   
+}
+
+  #controls button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  #controls button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  #slider-container {
+    margin-top: 10px;
+  }
+  
+  #weather-slider {
+    width: 300px;
+  }
+  
+  #value-display {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  #map {
+    position: fixed;
+    left: 242px;
+    top: -89px;
+  
+    
+}
+
+#controls {
+    margin-top: 10px;
+}
